@@ -9,5 +9,16 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Counter_Project';
+      value=0;
+      Increment(){
+        this.value++;
+      }
+      Decrement(){
+        this.value--;
+      }
+      Reset(){
+        this.value=0
+      }
+
 }
+
